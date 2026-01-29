@@ -207,16 +207,23 @@
       color: var(--text-sub);
     }
 
-    /* ================= RESPONSIVE ================= */
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 2.4rem;
-      }
+/* ================= RESPONSIVE ================= */
+@media (max-width: 600px) {
+  .hero {
+    height: 70vh;
+    min-height: 420px;
+    background-position: center top;
+  }
 
-      section {
-        padding: 70px 15px;
-      }
-    }
+  .hero h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.12em;
+  }
+
+  section {
+    padding: 70px 15px;
+  }
+}
   </style>
 </head>
 <body>
